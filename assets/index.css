@@ -1,0 +1,737 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* general */
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #282938;
+}
+
+
+h2 {
+    color: #282938;
+    font-size: 48px;
+    font-weight: 600px;
+}
+
+h3 {
+    color: #282938;
+    font-size: 38px;
+    font-weight: 600px;
+}
+
+h4 {
+    color: #282938;
+    font-size: 24px;
+    font-weight: 400px;
+
+}
+
+p {
+    color: #282938;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 28px;
+}
+
+section {
+    padding: 128px 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%
+}
+
+/* navbar */
+.navbar__logo:hover {
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: #1C1E53;
+    padding: 16px;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+
+}
+
+
+.navbar__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navbar__list__items {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar__list__items a {
+    color: #bbbbcbb1;
+    text-decoration: none;
+    padding: 0 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.active a {
+    color: #FFFFFF !important;
+}
+
+
+.navbar__btn a {
+    border-style: solid;
+    border-radius: 41px;
+    border-color: #F4F6FC33;
+    color: #FFFFFF;
+    padding: 16px 48px;
+    line-height: 28px;
+    margin-left: 5px;
+}
+
+.navbar__btn a:hover {
+    color: grey;
+}
+
+
+/* Section hero */
+
+.hero__aboutus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hero__aboutus__text {
+    width: 39%;
+}
+
+.hero__aboutus__text p {
+    line-height: 28px;
+    margin-bottom: 8px;
+
+}
+
+.hero__aboutus__text h1 {
+    font-size: 54px;
+    line-height: 74px;
+    margin-bottom: 31px;
+    color: #282938;
+}
+
+.hero__aboutus__img {
+    width: 40%;
+}
+
+/* Focus section */
+.focus {
+    padding: 0px;
+}
+
+.focus__goals {
+    background-color: #F4F5F5;
+    padding: 80px 80px;
+}
+
+.focus__goals>p {
+    margin-bottom: 4px;
+    ;
+}
+
+.focus__goals__text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.focus__goals__item {
+    width: 45%;
+
+}
+
+.focus__goals__item h3 {
+    margin-bottom: 16px;
+}
+
+
+.focus__goals__item p {
+    line-height: 28px;
+
+}
+
+
+/* process section */
+
+.process__header {
+    text-align: center;
+
+}
+
+.process__header h2 {
+    line-height: 64px;
+    margin-bottom: 48px;
+
+}
+
+
+
+.process__tags {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.process__tags__item {
+    width: 20%;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.circle::before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    background-color: #2405F2;
+    border-radius: 50%;
+}
+
+.circle::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    flex-grow: 1;
+    height: 2px;
+    border-bottom: 2px dashed #2405F2;
+    margin-left: 10px;
+
+}
+
+.process__tags__item p {
+    margin-bottom: 8px;
+}
+
+
+
+/* section 5 mission/vision  */
+
+
+.mission {
+    background-color: #EEF4FA;
+}
+
+.mission__cotainer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mission__cotainer__text {
+    width: 48%;
+}
+
+.mission__cotainer__text>p {
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.mission__cotainer__text h2 {
+    line-height: 56px;
+    margin-bottom: 16px;
+}
+
+
+
+.mission__cotainer__img {
+    width: 40%;
+}
+
+.vision__cotainer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 96px 0px;
+}
+
+
+.vision__container__img {
+    width: 48%;
+}
+
+.vision__cotainer__text {
+    width: 48%;
+}
+
+.vision__cotainer__text>p {
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.vision__cotainer__text h2 {
+    line-height: 56px;
+    margin-bottom: 16px;
+}
+
+/* section 6 Benefits */
+.benefits__header {
+    text-align: center;
+}
+
+.benefits__header h2 {
+    width: 50%;
+    margin: auto;
+    line-height: 64px;
+    margin-bottom: 48px;
+}
+
+.benefits__cards {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.benefits__cards {}
+
+.benefits__cards__item {
+    width: 32%;
+    background-color: #F4F6FC;
+    padding: 50px 48px 32px 48px;
+      margin-bottom: 48px;
+
+}
+
+.benefits__cards__item img {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 26px;
+}
+
+.benefits__cards__item h4 {
+    line-height: 36px;
+    margin-bottom: 12px;
+}
+
+/* .benefits__logos {
+    margin-top: 48px;
+} */
+
+.benefits__logos__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* team section */
+.team {
+    background-color:#F4F6FC;
+}
+
+.team__header {
+    text-align: center;
+}
+
+.team__header h2 {
+    line-height: 64px;
+    margin-bottom: 48px;
+}
+
+.team__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.team__cards__item {
+     background-color: #FFFFFF;
+    width: 23%;
+    padding: 48px 32px 64px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.image-wrapper {
+    position: relative;
+    width: 168px;
+    height: 168px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.team__cards__item h4{
+    margin-bottom: 2px;
+    line-height: 36px;
+}
+.team__cards__item p{
+    text-align: center;
+}
+
+
+.image-wrapper img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: block;
+}
+.image-wrapper a{
+    color: white;
+}
+
+.social-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content:center;
+    align-items:end;
+    gap: 12px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.image-wrapper:hover .social-overlay {
+    opacity: 1;
+}
+/* section talk */
+
+.talk{
+    background-color: #1C1E53;
+    padding: 0;
+}
+
+.talk__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:80px 160px 0px 40px;
+}
+.talk__content p,
+.talk__content h2,
+.talk__content a {
+    color: #FFFFFF;
+}
+.talk__content__item{
+width: 45%;
+padding: 0px 40px 10px 25px;
+
+}
+.talk__content__item h2{
+    margin-bottom: 14px;
+    line-height: 64px;
+}
+.talk__content__item>p{
+    margin-bottom: 28px;
+}
+.endlogos{
+    width:25%
+}
+.endlogos__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.endlogos__list a{
+    padding: 0 26px 0px 0px;
+}
+.yellowbox{
+    background-color: #FCD980;
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+.yellowbox p{
+    color: #282938;
+}
+.contact{
+    padding: 17px 17px 17px 30px;
+    width:90%
+}
+
+/* footer section */
+.footer{
+    background-color:#FFFFFF ;
+    padding: 0;
+}
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0px 32px 0px;
+}
+.footer__content__list{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__content__list a{
+    padding: 0px 32px 0px 0px;
+}
+
+@media (max-width: 520px) {
+    .navbar__list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar__list__items {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .navbar__btn a {
+        padding: 12px 24px;
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero__aboutus {
+        flex-direction: column;
+        padding: 24px;
+        text-align: center;
+    }
+
+    .hero__aboutus__text,
+    .hero__aboutus__img {
+        width: 100%;
+    }
+
+    .hero__aboutus__text h1 {
+        font-size: 32px;
+        line-height: 44px;
+    }
+
+    .focus__goals__text {
+        flex-direction: column;
+        padding: 12px;
+    }
+
+    .focus__goals__item {
+        width: 100%;
+    }
+
+    .process__tags {
+        flex-direction: column;
+    }
+
+    .process__tags__item {
+        width: 100%;
+    }
+
+    .mission__cotainer__content,
+    .vision__cotainer__content {
+        flex-direction: column;
+    }
+
+    .mission__cotainer__text,
+    .mission__cotainer__img,
+    .vision__cotainer__text,
+    .vision__container__img {
+        width: 100%;
+    }
+
+    .benefits__cards {
+        flex-direction: column;
+    }
+
+    .benefits__cards__item {
+        width: 100%;
+    }
+
+    .benefits__header h2 {
+        width: 100%;
+        font-size: 28px;
+    }
+
+
+    .team__cards {
+        flex-direction: column;
+
+    }
+
+    .team__cards__item {
+        width: 100%;
+    }
+
+    .talk__content {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .talk__content__item,
+    .yellowbox {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .endlogos {
+        width: 100%;
+    }
+
+    .footer__content {
+        flex-direction: column;
+    }
+
+    .footer__content__list {
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width: 992px) {
+    .navbar__list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar__list__items {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar__btn a {
+        width: 100%;
+        text-align: center;
+        margin-top: 8px;
+    }
+
+    .hero__aboutus {
+        flex-direction: column;
+        text-align: center;
+
+        padding: 32px;
+    }
+
+    .hero__aboutus__text,
+    .hero__aboutus__img {
+        width: 100%;
+    }
+
+    .focus__goals__text {
+        flex-direction: column;
+    }
+
+    .focus__goals__item {
+        width: 100%;
+    }
+
+    .process__tags {
+        flex-direction: column;
+       
+    }
+
+    .process__tags__item {
+        width: 100%;
+    }
+
+    .mission__cotainer__content,
+    .vision__cotainer__content {
+        flex-direction: column;
+       padding:12px 0px;
+    }
+
+    .mission__cotainer__text,
+    .mission__cotainer__img,
+    .vision__cotainer__text,
+    .vision__container__img {
+        width: 100%;
+    }
+
+    .benefits__cards {
+        flex-direction: column;
+   
+    }
+
+    .benefits__cards__item {
+        width: 100%;
+    }
+
+    .benefits__header h2 {
+        width: 100%;
+        font-size: 32px;
+    }
+
+    .team__cards {
+        flex-direction: column;
+    }
+
+    .team__cards__item {
+        width: 100%;
+    }
+
+    .talk__content {
+        flex-direction: column;
+        padding: 48px 24px;
+    }
+
+    .talk__content__item,
+    .yellowbox {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .endlogos {
+        width: 100%;
+    }
+
+    .footer__content {
+        flex-direction: column;
+       
+    }
+
+    .footer__content__list {
+        flex-direction: column;
+    }
+}
